@@ -222,7 +222,7 @@ export const openThreatIntelligence = () =>
     .click();
 
 /**
- * Open the Prevalence tab under the Visuablize tab in the document details expandable flyout left section
+ * Open the Prevalence tab under the Visualize tab in the document details expandable flyout left section
  */
 export const openPrevalence = () =>
   cy
@@ -232,7 +232,7 @@ export const openPrevalence = () =>
     .click();
 
 /**
- * Open the Correlations tab  under the Visuablize tab in the document details expandable flyout left section
+ * Open the Correlations tab  under the Visualize tab in the document details expandable flyout left section
  */
 export const openCorrelations = () =>
   cy

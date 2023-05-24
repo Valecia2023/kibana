@@ -84,3 +84,10 @@ export const RELATED_USERS_TOOL_TIP = i18n.translate(
     defaultMessage: 'These users successfully authenticated to the affected host after the alert.',
   }
 );
+
+export const PREVALENCE_ERROR_MESSAGE = i18n.translate(
+  'xpack.securitySolution.flyout.prevalenceErrorMessage',
+  {
+    defaultMessage: 'prevalence',
+  }
+);
