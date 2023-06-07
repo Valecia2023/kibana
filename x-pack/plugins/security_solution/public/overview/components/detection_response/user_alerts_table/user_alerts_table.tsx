@@ -21,7 +21,6 @@ import {
 
 import { ALERT_SEVERITY } from '@kbn/rule-data-utils';
 import { CellActionsMode } from '@kbn/cell-actions';
-import { ES_FIELD_TYPES, KBN_FIELD_TYPES } from '@kbn/field-types';
 import { SecurityCellActionsTrigger } from '../../../../actions/constants';
 import { useNavigateToAlertsPageWithFilters } from '../../../../common/hooks/use_navigate_to_alerts_page_with_filters';
 import { FormattedCount } from '../../../../common/components/formatted_number';
