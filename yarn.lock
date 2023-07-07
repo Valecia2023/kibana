@@ -1309,10 +1309,25 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@csstools/selector-specificity@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.1.tgz#b6b8d81780b9a9f6459f4bfe9226ac6aefaefe87"
-  integrity sha512-aG20vknL4/YjQF9BSV7ts4EWm/yrjagAN7OWBNmlbEOUiu0llj4OGrFoOKK3g2vey4/p2omKCoHrWtPxSwV3HA==
+"@csstools/css-parser-algorithms@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.3.0.tgz#0cc3a656dc2d638370ecf6f98358973bfbd00141"
+  integrity sha512-dTKSIHHWc0zPvcS5cqGP+/TPFUJB0ekJ9dGKvMAFoNuBFhDPBt9OMGNZiIA5vTiNdGHHBeScYPXIGBMnVOahsA==
+
+"@csstools/css-tokenizer@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-2.1.1.tgz#07ae11a0a06365d7ec686549db7b729bc036528e"
+  integrity sha512-GbrTj2Z8MCTUv+52GE0RbFGM527xuXZ0Xa5g0Z+YN573uveS4G0qi6WNOMyz3yrFM/jaILTTwJ0+umx81EzqfA==
+
+"@csstools/media-query-list-parser@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.2.tgz#6ef642b728d30c1009bfbba3211c7e4c11302728"
+  integrity sha512-M8cFGGwl866o6++vIY7j1AKuq9v57cf+dGepScwCcbut9ypJNr4Cj+LLTWligYUZ0uyhEoJDKt5lvyBfh2L3ZQ==
+
+"@csstools/selector-specificity@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-3.0.0.tgz#798622546b63847e82389e473fd67f2707d82247"
+  integrity sha512-hBI9tfBtuPIi885ZsZ32IMEU/5nlZH/KOVYJCOh7gyMxaVLGmLedYqFN6Ui1LXkI8JlC8IsuC0rF0btcRZKd5g==
 
 "@cypress/code-coverage@^3.10.0":
   version "3.10.0"
@@ -2844,2952 +2859,2215 @@
   integrity sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==
 
 "@kbn/aad-fixtures-plugin@link:x-pack/test/alerting_api_integration/common/plugins/aad":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ace@link:packages/kbn-ace":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/actions-plugin@link:x-pack/plugins/actions":
   version "0.0.0"
-  uid ""
 
 "@kbn/actions-simulators-plugin@link:x-pack/test/alerting_api_integration/common/plugins/actions_simulators":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/advanced-settings-plugin@link:src/plugins/advanced_settings":
   version "0.0.0"
-  uid ""
 
 "@kbn/aiops-components@link:x-pack/packages/ml/aiops_components":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/aiops-plugin@link:x-pack/plugins/aiops":
   version "0.0.0"
-  uid ""
 
 "@kbn/aiops-utils@link:x-pack/packages/ml/aiops_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerting-api-integration-helpers@link:x-pack/test/alerting_api_integration/packages/helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerting-api-integration-test-plugin@link:x-pack/test/alerting_api_integration/common/plugins/alerts":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerting-example-plugin@link:x-pack/examples/alerting_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/alerting-fixture-plugin@link:x-pack/test/functional_with_es_ssl/plugins/alerts":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerting-plugin@link:x-pack/plugins/alerting":
   version "0.0.0"
-  uid ""
 
 "@kbn/alerting-state-types@link:x-pack/packages/kbn-alerting-state-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerts-as-data-utils@link:packages/kbn-alerts-as-data-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerts-restricted-fixtures-plugin@link:x-pack/test/alerting_api_integration/common/plugins/alerts_restricted":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/alerts-ui-shared@link:packages/kbn-alerts-ui-shared":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ambient-common-types@link:packages/kbn-ambient-common-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ambient-ftr-types@link:packages/kbn-ambient-ftr-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ambient-storybook-types@link:packages/kbn-ambient-storybook-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ambient-ui-types@link:packages/kbn-ambient-ui-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-client@link:packages/analytics/client":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-ftr-helpers-plugin@link:test/analytics/plugins/analytics_ftr_helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-plugin-a-plugin@link:test/analytics/plugins/analytics_plugin_a":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-shippers-elastic-v3-browser@link:packages/analytics/shippers/elastic_v3/browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-shippers-elastic-v3-common@link:packages/analytics/shippers/elastic_v3/common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-shippers-elastic-v3-server@link:packages/analytics/shippers/elastic_v3/server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-shippers-fullstory@link:packages/analytics/shippers/fullstory":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics-shippers-gainsight@link:packages/analytics/shippers/gainsight":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/analytics@link:packages/kbn-analytics":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/apm-config-loader@link:packages/kbn-apm-config-loader":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/apm-plugin@link:x-pack/plugins/apm":
   version "0.0.0"
-  uid ""
 
 "@kbn/apm-synthtrace-client@link:packages/kbn-apm-synthtrace-client":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/apm-synthtrace@link:packages/kbn-apm-synthtrace":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/apm-utils@link:packages/kbn-apm-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/app-link-test-plugin@link:test/plugin_functional/plugins/app_link_test":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/application-usage-test-plugin@link:x-pack/test/usage_collection/plugins/application_usage_test":
   version "0.0.0"
-  uid ""
 
 "@kbn/assetManager-plugin@link:x-pack/plugins/asset_manager":
   version "0.0.0"
-  uid ""
 
 "@kbn/audit-log-plugin@link:x-pack/test/security_api_integration/plugins/audit_log":
   version "0.0.0"
-  uid ""
 
 "@kbn/axe-config@link:packages/kbn-axe-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/babel-preset@link:packages/kbn-babel-preset":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/babel-register@link:packages/kbn-babel-register":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/babel-transform@link:packages/kbn-babel-transform":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/banners-plugin@link:x-pack/plugins/banners":
   version "0.0.0"
-  uid ""
 
 "@kbn/bazel-runner@link:packages/kbn-bazel-runner":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/bfetch-explorer-plugin@link:examples/bfetch_explorer":
   version "0.0.0"
-  uid ""
 
 "@kbn/bfetch-plugin@link:src/plugins/bfetch":
   version "0.0.0"
-  uid ""
 
 "@kbn/canvas-plugin@link:x-pack/plugins/canvas":
   version "0.0.0"
-  uid ""
 
 "@kbn/cases-api-integration-test-plugin@link:x-pack/test/cases_api_integration/common/plugins/cases":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/cases-components@link:packages/kbn-cases-components":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/cases-plugin@link:x-pack/plugins/cases":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/cell-actions@link:packages/kbn-cell-actions":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/chart-expressions-common@link:src/plugins/chart_expressions/common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/chart-icons@link:packages/kbn-chart-icons":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/charts-plugin@link:src/plugins/charts":
   version "0.0.0"
-  uid ""
 
 "@kbn/check-mappings-update-cli@link:packages/kbn-check-mappings-update-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ci-stats-core@link:packages/kbn-ci-stats-core":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ci-stats-performance-metrics@link:packages/kbn-ci-stats-performance-metrics":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ci-stats-reporter@link:packages/kbn-ci-stats-reporter":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ci-stats-shipper-cli@link:packages/kbn-ci-stats-shipper-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/cli-dev-mode@link:packages/kbn-cli-dev-mode":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/cloud-chat-plugin@link:x-pack/plugins/cloud_integrations/cloud_chat":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-data-migration-plugin@link:x-pack/plugins/cloud_integrations/cloud_data_migration":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-defend-plugin@link:x-pack/plugins/cloud_defend":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-experiments-plugin@link:x-pack/plugins/cloud_integrations/cloud_experiments":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-full-story-plugin@link:x-pack/plugins/cloud_integrations/cloud_full_story":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-gainsight-plugin@link:x-pack/plugins/cloud_integrations/cloud_gain_sight":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-integration-saml-provider-plugin@link:x-pack/test/cloud_integration/plugins/saml_provider":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-links-plugin@link:x-pack/plugins/cloud_integrations/cloud_links":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-plugin@link:x-pack/plugins/cloud":
   version "0.0.0"
-  uid ""
 
 "@kbn/cloud-security-posture-plugin@link:x-pack/plugins/cloud_security_posture":
   version "0.0.0"
-  uid ""
 
 "@kbn/code-editor-mocks@link:packages/shared-ux/code_editor/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/code-editor-types@link:packages/shared-ux/code_editor/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/code-editor@link:packages/shared-ux/code_editor/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/coloring@link:packages/kbn-coloring":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/config-mocks@link:packages/kbn-config-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/config-schema@link:packages/kbn-config-schema":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/config@link:packages/kbn-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/console-plugin@link:src/plugins/console":
   version "0.0.0"
-  uid ""
 
 "@kbn/content-management-content-editor@link:packages/content-management/content_editor":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/content-management-examples-plugin@link:examples/content_management_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/content-management-plugin@link:src/plugins/content_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/content-management-table-list@link:packages/content-management/table_list":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/content-management-utils@link:packages/kbn-content-management-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/controls-example-plugin@link:examples/controls_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/controls-plugin@link:src/plugins/controls":
   version "0.0.0"
-  uid ""
 
 "@kbn/core-analytics-browser-internal@link:packages/core/analytics/core-analytics-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-analytics-browser-mocks@link:packages/core/analytics/core-analytics-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-analytics-browser@link:packages/core/analytics/core-analytics-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-analytics-server-internal@link:packages/core/analytics/core-analytics-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-analytics-server-mocks@link:packages/core/analytics/core-analytics-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-analytics-server@link:packages/core/analytics/core-analytics-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-app-status-plugin@link:test/plugin_functional/plugins/core_app_status":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-application-browser-internal@link:packages/core/application/core-application-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-application-browser-mocks@link:packages/core/application/core-application-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-application-browser@link:packages/core/application/core-application-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-application-common@link:packages/core/application/core-application-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-apps-browser-internal@link:packages/core/apps/core-apps-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-apps-browser-mocks@link:packages/core/apps/core-apps-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-apps-server-internal@link:packages/core/apps/core-apps-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-browser-internal@link:packages/core/base/core-base-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-browser-mocks@link:packages/core/base/core-base-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-common-internal@link:packages/core/base/core-base-common-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-common@link:packages/core/base/core-base-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-server-internal@link:packages/core/base/core-base-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-base-server-mocks@link:packages/core/base/core-base-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-browser-internal@link:packages/core/capabilities/core-capabilities-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-browser-mocks@link:packages/core/capabilities/core-capabilities-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-common@link:packages/core/capabilities/core-capabilities-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-server-internal@link:packages/core/capabilities/core-capabilities-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-server-mocks@link:packages/core/capabilities/core-capabilities-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-capabilities-server@link:packages/core/capabilities/core-capabilities-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-chrome-browser-internal@link:packages/core/chrome/core-chrome-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-chrome-browser-mocks@link:packages/core/chrome/core-chrome-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-chrome-browser@link:packages/core/chrome/core-chrome-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-config-server-internal@link:packages/core/config/core-config-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-browser-internal@link:packages/core/custom-branding/core-custom-branding-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-browser-mocks@link:packages/core/custom-branding/core-custom-branding-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-browser@link:packages/core/custom-branding/core-custom-branding-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-common@link:packages/core/custom-branding/core-custom-branding-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-server-internal@link:packages/core/custom-branding/core-custom-branding-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-server-mocks@link:packages/core/custom-branding/core-custom-branding-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-custom-branding-server@link:packages/core/custom-branding/core-custom-branding-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-browser-internal@link:packages/core/deprecations/core-deprecations-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-browser-mocks@link:packages/core/deprecations/core-deprecations-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-browser@link:packages/core/deprecations/core-deprecations-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-common@link:packages/core/deprecations/core-deprecations-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-server-internal@link:packages/core/deprecations/core-deprecations-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-server-mocks@link:packages/core/deprecations/core-deprecations-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-deprecations-server@link:packages/core/deprecations/core-deprecations-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-browser-internal@link:packages/core/doc-links/core-doc-links-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-browser-mocks@link:packages/core/doc-links/core-doc-links-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-browser@link:packages/core/doc-links/core-doc-links-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-server-internal@link:packages/core/doc-links/core-doc-links-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-server-mocks@link:packages/core/doc-links/core-doc-links-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-doc-links-server@link:packages/core/doc-links/core-doc-links-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-elasticsearch-client-server-internal@link:packages/core/elasticsearch/core-elasticsearch-client-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-elasticsearch-client-server-mocks@link:packages/core/elasticsearch/core-elasticsearch-client-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-elasticsearch-server-internal@link:packages/core/elasticsearch/core-elasticsearch-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-elasticsearch-server-mocks@link:packages/core/elasticsearch/core-elasticsearch-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-elasticsearch-server@link:packages/core/elasticsearch/core-elasticsearch-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-environment-server-internal@link:packages/core/environment/core-environment-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-environment-server-mocks@link:packages/core/environment/core-environment-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-browser-internal@link:packages/core/execution-context/core-execution-context-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-browser-mocks@link:packages/core/execution-context/core-execution-context-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-browser@link:packages/core/execution-context/core-execution-context-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-common@link:packages/core/execution-context/core-execution-context-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-server-internal@link:packages/core/execution-context/core-execution-context-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-server-mocks@link:packages/core/execution-context/core-execution-context-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-execution-context-server@link:packages/core/execution-context/core-execution-context-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-fatal-errors-browser-internal@link:packages/core/fatal-errors/core-fatal-errors-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-fatal-errors-browser-mocks@link:packages/core/fatal-errors/core-fatal-errors-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-fatal-errors-browser@link:packages/core/fatal-errors/core-fatal-errors-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-history-block-plugin@link:test/plugin_functional/plugins/core_history_block":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-browser-internal@link:packages/core/http/core-http-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-browser-mocks@link:packages/core/http/core-http-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-browser@link:packages/core/http/core-http-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-common@link:packages/core/http/core-http-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-context-server-internal@link:packages/core/http/core-http-context-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-context-server-mocks@link:packages/core/http/core-http-context-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-plugin@link:test/plugin_functional/plugins/core_http":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-request-handler-context-server-internal@link:packages/core/http/core-http-request-handler-context-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-request-handler-context-server@link:packages/core/http/core-http-request-handler-context-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-resources-server-internal@link:packages/core/http/core-http-resources-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-resources-server-mocks@link:packages/core/http/core-http-resources-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-resources-server@link:packages/core/http/core-http-resources-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-router-server-internal@link:packages/core/http/core-http-router-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-router-server-mocks@link:packages/core/http/core-http-router-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-server-internal@link:packages/core/http/core-http-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-server-mocks@link:packages/core/http/core-http-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-http-server@link:packages/core/http/core-http-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-browser-internal@link:packages/core/i18n/core-i18n-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-browser-mocks@link:packages/core/i18n/core-i18n-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-browser@link:packages/core/i18n/core-i18n-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-server-internal@link:packages/core/i18n/core-i18n-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-server-mocks@link:packages/core/i18n/core-i18n-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-i18n-server@link:packages/core/i18n/core-i18n-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-injected-metadata-browser-internal@link:packages/core/injected-metadata/core-injected-metadata-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-injected-metadata-browser-mocks@link:packages/core/injected-metadata/core-injected-metadata-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-injected-metadata-common-internal@link:packages/core/injected-metadata/core-injected-metadata-common-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-integrations-browser-internal@link:packages/core/integrations/core-integrations-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-integrations-browser-mocks@link:packages/core/integrations/core-integrations-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-browser-internal@link:packages/core/lifecycle/core-lifecycle-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-browser-mocks@link:packages/core/lifecycle/core-lifecycle-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-browser@link:packages/core/lifecycle/core-lifecycle-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-server-internal@link:packages/core/lifecycle/core-lifecycle-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-server-mocks@link:packages/core/lifecycle/core-lifecycle-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-lifecycle-server@link:packages/core/lifecycle/core-lifecycle-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-browser-internal@link:packages/core/logging/core-logging-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-browser-mocks@link:packages/core/logging/core-logging-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-common-internal@link:packages/core/logging/core-logging-common-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-server-internal@link:packages/core/logging/core-logging-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-server-mocks@link:packages/core/logging/core-logging-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-logging-server@link:packages/core/logging/core-logging-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-metrics-collectors-server-internal@link:packages/core/metrics/core-metrics-collectors-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-metrics-collectors-server-mocks@link:packages/core/metrics/core-metrics-collectors-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-metrics-server-internal@link:packages/core/metrics/core-metrics-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-metrics-server-mocks@link:packages/core/metrics/core-metrics-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-metrics-server@link:packages/core/metrics/core-metrics-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-mount-utils-browser-internal@link:packages/core/mount-utils/core-mount-utils-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-mount-utils-browser@link:packages/core/mount-utils/core-mount-utils-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-node-server-internal@link:packages/core/node/core-node-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-node-server-mocks@link:packages/core/node/core-node-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-node-server@link:packages/core/node/core-node-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-notifications-browser-internal@link:packages/core/notifications/core-notifications-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-notifications-browser-mocks@link:packages/core/notifications/core-notifications-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-notifications-browser@link:packages/core/notifications/core-notifications-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-overlays-browser-internal@link:packages/core/overlays/core-overlays-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-overlays-browser-mocks@link:packages/core/overlays/core-overlays-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-overlays-browser@link:packages/core/overlays/core-overlays-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-a-plugin@link:test/plugin_functional/plugins/core_plugin_a":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-appleave-plugin@link:test/plugin_functional/plugins/core_plugin_appleave":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-b-plugin@link:test/plugin_functional/plugins/core_plugin_b":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-chromeless-plugin@link:test/plugin_functional/plugins/core_plugin_chromeless":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-deep-links-plugin@link:test/plugin_functional/plugins/core_plugin_deep_links":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-deprecations-plugin@link:test/plugin_functional/plugins/core_plugin_deprecations":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-execution-context-plugin@link:test/plugin_functional/plugins/core_plugin_execution_context":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-helpmenu-plugin@link:test/plugin_functional/plugins/core_plugin_helpmenu":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-initializer-context-plugin@link:test/node_roles_functional/plugins/core_plugin_initializer_context":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-route-timeouts-plugin@link:test/plugin_functional/plugins/core_plugin_route_timeouts":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugin-static-assets-plugin@link:test/plugin_functional/plugins/core_plugin_static_assets":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-base-server-internal@link:packages/core/plugins/core-plugins-base-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-browser-internal@link:packages/core/plugins/core-plugins-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-browser-mocks@link:packages/core/plugins/core-plugins-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-browser@link:packages/core/plugins/core-plugins-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-server-internal@link:packages/core/plugins/core-plugins-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-server-mocks@link:packages/core/plugins/core-plugins-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-plugins-server@link:packages/core/plugins/core-plugins-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-preboot-server-internal@link:packages/core/preboot/core-preboot-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-preboot-server-mocks@link:packages/core/preboot/core-preboot-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-preboot-server@link:packages/core/preboot/core-preboot-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-provider-plugin@link:test/plugin_functional/plugins/core_provider_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-rendering-browser-internal@link:packages/core/rendering/core-rendering-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-rendering-browser-mocks@link:packages/core/rendering/core-rendering-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-rendering-server-internal@link:packages/core/rendering/core-rendering-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-rendering-server-mocks@link:packages/core/rendering/core-rendering-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-root-browser-internal@link:packages/core/root/core-root-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-root-server-internal@link:packages/core/root/core-root-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-api-browser@link:packages/core/saved-objects/core-saved-objects-api-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-api-server-internal@link:packages/core/saved-objects/core-saved-objects-api-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-api-server-mocks@link:packages/core/saved-objects/core-saved-objects-api-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-api-server@link:packages/core/saved-objects/core-saved-objects-api-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-base-server-internal@link:packages/core/saved-objects/core-saved-objects-base-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-base-server-mocks@link:packages/core/saved-objects/core-saved-objects-base-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-browser-internal@link:packages/core/saved-objects/core-saved-objects-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-browser-mocks@link:packages/core/saved-objects/core-saved-objects-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-browser@link:packages/core/saved-objects/core-saved-objects-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-common@link:packages/core/saved-objects/core-saved-objects-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-import-export-server-internal@link:packages/core/saved-objects/core-saved-objects-import-export-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-import-export-server-mocks@link:packages/core/saved-objects/core-saved-objects-import-export-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-migration-server-internal@link:packages/core/saved-objects/core-saved-objects-migration-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-migration-server-mocks@link:packages/core/saved-objects/core-saved-objects-migration-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-server-internal@link:packages/core/saved-objects/core-saved-objects-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-server-mocks@link:packages/core/saved-objects/core-saved-objects-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-server@link:packages/core/saved-objects/core-saved-objects-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-saved-objects-utils-server@link:packages/core/saved-objects/core-saved-objects-utils-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-status-common-internal@link:packages/core/status/core-status-common-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-status-common@link:packages/core/status/core-status-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-status-server-internal@link:packages/core/status/core-status-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-status-server-mocks@link:packages/core/status/core-status-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-status-server@link:packages/core/status/core-status-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-test-helpers-deprecations-getters@link:packages/core/test-helpers/core-test-helpers-deprecations-getters":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-test-helpers-http-setup-browser@link:packages/core/test-helpers/core-test-helpers-http-setup-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-test-helpers-kbn-server@link:packages/core/test-helpers/core-test-helpers-kbn-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-test-helpers-so-type-serializer@link:packages/core/test-helpers/core-test-helpers-so-type-serializer":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-test-helpers-test-utils@link:packages/core/test-helpers/core-test-helpers-test-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-theme-browser-internal@link:packages/core/theme/core-theme-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-theme-browser-mocks@link:packages/core/theme/core-theme-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-theme-browser@link:packages/core/theme/core-theme-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-browser-internal@link:packages/core/ui-settings/core-ui-settings-browser-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-browser-mocks@link:packages/core/ui-settings/core-ui-settings-browser-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-browser@link:packages/core/ui-settings/core-ui-settings-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-common@link:packages/core/ui-settings/core-ui-settings-common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-server-internal@link:packages/core/ui-settings/core-ui-settings-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-server-mocks@link:packages/core/ui-settings/core-ui-settings-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-ui-settings-server@link:packages/core/ui-settings/core-ui-settings-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-usage-data-base-server-internal@link:packages/core/usage-data/core-usage-data-base-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-usage-data-server-internal@link:packages/core/usage-data/core-usage-data-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-usage-data-server-mocks@link:packages/core/usage-data/core-usage-data-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-usage-data-server@link:packages/core/usage-data/core-usage-data-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-user-settings-server-internal@link:packages/core/user-settings/core-user-settings-server-internal":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-user-settings-server-mocks@link:packages/core/user-settings/core-user-settings-server-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core-user-settings-server@link:packages/core/user-settings/core-user-settings-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/core@link:src/core":
   version "0.0.0"
-  uid ""
 
 "@kbn/cross-cluster-replication-plugin@link:x-pack/plugins/cross_cluster_replication":
   version "0.0.0"
-  uid ""
 
 "@kbn/crypto-browser@link:packages/kbn-crypto-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/crypto@link:packages/kbn-crypto":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/custom-branding-plugin@link:x-pack/plugins/custom_branding":
   version "0.0.0"
-  uid ""
 
 "@kbn/custom-integrations-plugin@link:src/plugins/custom_integrations":
   version "0.0.0"
-  uid ""
 
 "@kbn/cypress-config@link:packages/kbn-cypress-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dashboard-enhanced-plugin@link:x-pack/plugins/dashboard_enhanced":
   version "0.0.0"
-  uid ""
 
 "@kbn/dashboard-plugin@link:src/plugins/dashboard":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-plugin@link:src/plugins/data":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-search-plugin@link:test/plugin_functional/plugins/data_search":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/data-view-editor-plugin@link:src/plugins/data_view_editor":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-view-field-editor-example-plugin@link:examples/data_view_field_editor_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-view-field-editor-plugin@link:src/plugins/data_view_field_editor":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-view-management-plugin@link:src/plugins/data_view_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-views-plugin@link:src/plugins/data_views":
   version "0.0.0"
-  uid ""
 
 "@kbn/data-visualizer-plugin@link:x-pack/plugins/data_visualizer":
   version "0.0.0"
-  uid ""
 
 "@kbn/datemath@link:packages/kbn-datemath":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dev-cli-errors@link:packages/kbn-dev-cli-errors":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dev-cli-runner@link:packages/kbn-dev-cli-runner":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dev-proc-runner@link:packages/kbn-dev-proc-runner":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dev-tools-plugin@link:src/plugins/dev_tools":
   version "0.0.0"
-  uid ""
 
 "@kbn/dev-utils@link:packages/kbn-dev-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/developer-examples-plugin@link:examples/developer_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/discover-enhanced-plugin@link:x-pack/plugins/discover_enhanced":
   version "0.0.0"
-  uid ""
 
 "@kbn/discover-plugin@link:src/plugins/discover":
   version "0.0.0"
-  uid ""
 
 "@kbn/doc-links@link:packages/kbn-doc-links":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/docs-utils@link:packages/kbn-docs-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/dom-drag-drop@link:packages/kbn-dom-drag-drop":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ebt-tools@link:packages/kbn-ebt-tools":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ecs-data-quality-dashboard-plugin@link:x-pack/plugins/ecs_data_quality_dashboard":
   version "0.0.0"
-  uid ""
 
 "@kbn/ecs-data-quality-dashboard@link:x-pack/packages/security-solution/ecs_data_quality_dashboard":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ecs@link:packages/kbn-ecs":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/elastic-assistant@link:x-pack/packages/kbn-elastic-assistant":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/elasticsearch-client-plugin@link:test/plugin_functional/plugins/elasticsearch_client_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/elasticsearch-client-xpack-plugin@link:x-pack/test/plugin_api_integration/plugins/elasticsearch_client":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/embeddable-enhanced-plugin@link:x-pack/plugins/embeddable_enhanced":
   version "0.0.0"
-  uid ""
 
 "@kbn/embeddable-examples-plugin@link:examples/embeddable_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/embeddable-explorer-plugin@link:examples/embeddable_explorer":
   version "0.0.0"
-  uid ""
 
 "@kbn/embeddable-plugin@link:src/plugins/embeddable":
   version "0.0.0"
-  uid ""
 
 "@kbn/embedded-lens-example-plugin@link:x-pack/examples/embedded_lens_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/encrypted-saved-objects-plugin@link:x-pack/plugins/encrypted_saved_objects":
   version "0.0.0"
-  uid ""
 
 "@kbn/enterprise-search-plugin@link:x-pack/plugins/enterprise_search":
   version "0.0.0"
-  uid ""
 
 "@kbn/es-archiver@link:packages/kbn-es-archiver":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/es-errors@link:packages/kbn-es-errors":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/es-query@link:packages/kbn-es-query":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/es-types@link:packages/kbn-es-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/es-ui-shared-plugin@link:src/plugins/es_ui_shared":
   version "0.0.0"
-  uid ""
 
 "@kbn/es@link:packages/kbn-es":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eslint-config@link:packages/kbn-eslint-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eslint-plugin-disable@link:packages/kbn-eslint-plugin-disable":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eslint-plugin-eslint@link:packages/kbn-eslint-plugin-eslint":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eslint-plugin-imports@link:packages/kbn-eslint-plugin-imports":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eslint-plugin-telemetry@link:packages/kbn-eslint-plugin-telemetry":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/eso-plugin@link:x-pack/test/encrypted_saved_objects_api_integration/plugins/api_consumer_plugin":
   version "0.0.0"
-  uid ""
 
 "@kbn/ess-security@link:x-pack/plugins/ess_security":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/event-annotation-plugin@link:src/plugins/event_annotation":
   version "0.0.0"
-  uid ""
 
 "@kbn/event-log-fixture-plugin@link:x-pack/test/plugin_api_integration/plugins/event_log":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/event-log-plugin@link:x-pack/plugins/event_log":
   version "0.0.0"
-  uid ""
 
 "@kbn/expandable-flyout@link:packages/kbn-expandable-flyout":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/expect@link:packages/kbn-expect":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/exploratory-view-example-plugin@link:x-pack/examples/exploratory_view_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/exploratory-view-plugin@link:x-pack/plugins/exploratory_view":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-error-plugin@link:src/plugins/expression_error":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-gauge-plugin@link:src/plugins/chart_expressions/expression_gauge":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-heatmap-plugin@link:src/plugins/chart_expressions/expression_heatmap":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-image-plugin@link:src/plugins/expression_image":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-legacy-metric-vis-plugin@link:src/plugins/chart_expressions/expression_legacy_metric":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-metric-plugin@link:src/plugins/expression_metric":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-metric-vis-plugin@link:src/plugins/chart_expressions/expression_metric":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-partition-vis-plugin@link:src/plugins/chart_expressions/expression_partition_vis":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-repeat-image-plugin@link:src/plugins/expression_repeat_image":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-reveal-image-plugin@link:src/plugins/expression_reveal_image":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-shape-plugin@link:src/plugins/expression_shape":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-tagcloud-plugin@link:src/plugins/chart_expressions/expression_tagcloud":
   version "0.0.0"
-  uid ""
 
 "@kbn/expression-xy-plugin@link:src/plugins/chart_expressions/expression_xy":
   version "0.0.0"
-  uid ""
 
 "@kbn/expressions-explorer-plugin@link:examples/expressions_explorer":
   version "0.0.0"
-  uid ""
 
 "@kbn/expressions-plugin@link:src/plugins/expressions":
   version "0.0.0"
-  uid ""
 
 "@kbn/failed-test-reporter-cli@link:packages/kbn-failed-test-reporter-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/feature-usage-test-plugin@link:x-pack/test/plugin_api_integration/plugins/feature_usage_test":
   version "0.0.0"
-  uid ""
 
 "@kbn/features-plugin@link:x-pack/plugins/features":
   version "0.0.0"
-  uid ""
 
 "@kbn/fec-alerts-test-plugin@link:x-pack/test/functional_execution_context/plugins/alerts":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/field-formats-example-plugin@link:examples/field_formats_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/field-formats-plugin@link:src/plugins/field_formats":
   version "0.0.0"
-  uid ""
 
 "@kbn/field-types@link:packages/kbn-field-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/file-upload-plugin@link:x-pack/plugins/file_upload":
   version "0.0.0"
-  uid ""
 
 "@kbn/files-example-plugin@link:examples/files_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/files-management-plugin@link:src/plugins/files_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/files-plugin@link:src/plugins/files":
   version "0.0.0"
-  uid ""
 
 "@kbn/find-used-node-modules@link:packages/kbn-find-used-node-modules":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/fleet-plugin@link:x-pack/plugins/fleet":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/flot-charts@link:packages/kbn-flot-charts":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/foo-plugin@link:x-pack/test/ui_capabilities/common/plugins/foo_plugin":
   version "0.0.0"
-  uid ""
 
 "@kbn/ftr-apis-plugin@link:src/plugins/ftr_apis":
   version "0.0.0"
-  uid ""
 
 "@kbn/ftr-common-functional-services@link:packages/kbn-ftr-common-functional-services":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ftr-screenshot-filename@link:packages/kbn-ftr-screenshot-filename":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/functional-with-es-ssl-cases-test-plugin@link:x-pack/test/functional_with_es_ssl/plugins/cases":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/generate-csv-types@link:packages/kbn-generate-csv-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/generate-csv@link:packages/kbn-generate-csv":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/generate@link:packages/kbn-generate":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/get-repo-files@link:packages/kbn-get-repo-files":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/global-search-bar-plugin@link:x-pack/plugins/global_search_bar":
   version "0.0.0"
-  uid ""
 
 "@kbn/global-search-plugin@link:x-pack/plugins/global_search":
   version "0.0.0"
-  uid ""
 
 "@kbn/global-search-providers-plugin@link:x-pack/plugins/global_search_providers":
   version "0.0.0"
-  uid ""
 
 "@kbn/global-search-test-plugin@link:x-pack/test/plugin_functional/plugins/global_search_test":
   version "0.0.0"
-  uid ""
 
 "@kbn/graph-plugin@link:x-pack/plugins/graph":
   version "0.0.0"
-  uid ""
 
 "@kbn/grokdebugger-plugin@link:x-pack/plugins/grokdebugger":
   version "0.0.0"
-  uid ""
 
 "@kbn/guided-onboarding-example-plugin@link:examples/guided_onboarding_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/guided-onboarding-plugin@link:src/plugins/guided_onboarding":
   version "0.0.0"
-  uid ""
 
 "@kbn/guided-onboarding@link:packages/kbn-guided-onboarding":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/handlebars@link:packages/kbn-handlebars":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/hapi-mocks@link:packages/kbn-hapi-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/health-gateway-server@link:packages/kbn-health-gateway-server":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/hello-world-plugin@link:examples/hello_world":
   version "0.0.0"
-  uid ""
 
 "@kbn/home-plugin@link:src/plugins/home":
   version "0.0.0"
-  uid ""
 
 "@kbn/home-sample-data-card@link:packages/home/sample_data_card":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/home-sample-data-tab@link:packages/home/sample_data_tab":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/home-sample-data-types@link:packages/home/sample_data_types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/i18n-react@link:packages/kbn-i18n-react":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/i18n@link:packages/kbn-i18n":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/iframe-embedded-plugin@link:x-pack/test/functional_embedded/plugins/iframe_embedded":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/image-embeddable-plugin@link:src/plugins/image_embeddable":
   version "0.0.0"
-  uid ""
 
 "@kbn/import-locator@link:packages/kbn-import-locator":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/import-resolver@link:packages/kbn-import-resolver":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/index-lifecycle-management-plugin@link:x-pack/plugins/index_lifecycle_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/index-management-plugin@link:x-pack/plugins/index_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/index-patterns-test-plugin@link:test/plugin_functional/plugins/index_patterns":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/infra-forge@link:x-pack/packages/kbn-infra-forge":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/infra-plugin@link:x-pack/plugins/infra":
   version "0.0.0"
-  uid ""
 
 "@kbn/ingest-pipelines-plugin@link:x-pack/plugins/ingest_pipelines":
   version "0.0.0"
-  uid ""
 
 "@kbn/input-control-vis-plugin@link:src/plugins/input_control_vis":
   version "0.0.0"
-  uid ""
 
 "@kbn/inspector-plugin@link:src/plugins/inspector":
   version "0.0.0"
-  uid ""
 
 "@kbn/interactive-setup-plugin@link:src/plugins/interactive_setup":
   version "0.0.0"
-  uid ""
 
 "@kbn/interactive-setup-test-endpoints-plugin@link:test/interactive_setup_api_integration/plugins/test_endpoints":
   version "0.0.0"
-  uid ""
 
 "@kbn/interpreter@link:packages/kbn-interpreter":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/io-ts-utils@link:packages/kbn-io-ts-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/jest-serializers@link:packages/kbn-jest-serializers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/journeys@link:packages/kbn-journeys":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/json-ast@link:packages/kbn-json-ast":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kbn-health-gateway-status-plugin@link:test/health_gateway/plugins/status":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kbn-sample-panel-action-plugin@link:test/plugin_functional/plugins/kbn_sample_panel_action":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kbn-top-nav-plugin@link:test/plugin_functional/plugins/kbn_top_nav":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kbn-tp-custom-visualizations-plugin@link:test/plugin_functional/plugins/kbn_tp_custom_visualizations":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kbn-tp-run-pipeline-plugin@link:test/interpreter_functional/plugins/kbn_tp_run_pipeline":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kibana-cors-test-plugin@link:x-pack/test/functional_cors/plugins/kibana_cors_test":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kibana-manifest-schema@link:packages/kbn-kibana-manifest-schema":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/kibana-overview-plugin@link:src/plugins/kibana_overview":
   version "0.0.0"
-  uid ""
 
 "@kbn/kibana-react-plugin@link:src/plugins/kibana_react":
   version "0.0.0"
-  uid ""
 
 "@kbn/kibana-usage-collection-plugin@link:src/plugins/kibana_usage_collection":
   version "0.0.0"
-  uid ""
 
 "@kbn/kibana-utils-plugin@link:src/plugins/kibana_utils":
   version "0.0.0"
-  uid ""
 
 "@kbn/kubernetes-security-plugin@link:x-pack/plugins/kubernetes_security":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/language-documentation-popover@link:packages/kbn-language-documentation-popover":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/lens-plugin@link:x-pack/plugins/lens":
   version "0.0.0"
-  uid ""
 
 "@kbn/license-api-guard-plugin@link:x-pack/plugins/license_api_guard":
   version "0.0.0"
-  uid ""
 
 "@kbn/license-management-plugin@link:x-pack/plugins/license_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/licensing-plugin@link:x-pack/plugins/licensing":
   version "0.0.0"
-  uid ""
 
 "@kbn/lint-packages-cli@link:packages/kbn-lint-packages-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/lint-ts-projects-cli@link:packages/kbn-lint-ts-projects-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/lists-plugin@link:x-pack/plugins/lists":
   version "0.0.0"
-  uid ""
 
 "@kbn/locator-examples-plugin@link:examples/locator_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/locator-explorer-plugin@link:examples/locator_explorer":
   version "0.0.0"
-  uid ""
 
 "@kbn/logging-mocks@link:packages/kbn-logging-mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/logging@link:packages/kbn-logging":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/logstash-plugin@link:x-pack/plugins/logstash":
   version "0.0.0"
-  uid ""
 
 "@kbn/managed-vscode-config-cli@link:packages/kbn-managed-vscode-config-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/managed-vscode-config@link:packages/kbn-managed-vscode-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/management-plugin@link:src/plugins/management":
   version "0.0.0"
-  uid ""
 
 "@kbn/management-test-plugin@link:test/plugin_functional/plugins/management_test_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/mapbox-gl@link:packages/kbn-mapbox-gl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/maps-custom-raster-source-plugin@link:x-pack/examples/third_party_maps_source_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/maps-ems-plugin@link:src/plugins/maps_ems":
   version "0.0.0"
-  uid ""
 
 "@kbn/maps-plugin@link:x-pack/plugins/maps":
   version "0.0.0"
-  uid ""
 
 "@kbn/maps-vector-tile-utils@link:x-pack/packages/maps/vector_tile_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-agg-utils@link:x-pack/packages/ml/agg_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-anomaly-utils@link:x-pack/packages/ml/anomaly_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-data-frame-analytics-utils@link:x-pack/packages/ml/data_frame_analytics_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-data-grid@link:x-pack/packages/ml/data_grid":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-date-picker@link:x-pack/packages/ml/date_picker":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-date-utils@link:x-pack/packages/ml/date_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-error-utils@link:x-pack/packages/ml/error_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-is-defined@link:x-pack/packages/ml/is_defined":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-is-populated-object@link:x-pack/packages/ml/is_populated_object":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-kibana-theme@link:x-pack/packages/ml/kibana_theme":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-local-storage@link:x-pack/packages/ml/local_storage":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-nested-property@link:x-pack/packages/ml/nested_property":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-number-utils@link:x-pack/packages/ml/number_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-plugin@link:x-pack/plugins/ml":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-query-utils@link:x-pack/packages/ml/query_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-random-sampler-utils@link:x-pack/packages/ml/random_sampler_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-route-utils@link:x-pack/packages/ml/route_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-runtime-field-utils@link:x-pack/packages/ml/runtime_field_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-string-hash@link:x-pack/packages/ml/string_hash":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-trained-models-utils@link:x-pack/packages/ml/trained_models_utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ml-url-state@link:x-pack/packages/ml/url_state":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/monaco@link:packages/kbn-monaco":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/monitoring-collection-plugin@link:x-pack/plugins/monitoring_collection":
   version "0.0.0"
-  uid ""
 
 "@kbn/monitoring-plugin@link:x-pack/plugins/monitoring":
   version "0.0.0"
-  uid ""
 
 "@kbn/navigation-plugin@link:src/plugins/navigation":
   version "0.0.0"
-  uid ""
 
 "@kbn/newsfeed-plugin@link:src/plugins/newsfeed":
   version "0.0.0"
-  uid ""
 
 "@kbn/newsfeed-test-plugin@link:test/common/plugins/newsfeed":
   version "0.0.0"
-  uid ""
 
 "@kbn/notifications-plugin@link:x-pack/plugins/notifications":
   version "0.0.0"
-  uid ""
 
 "@kbn/object-versioning@link:packages/kbn-object-versioning":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/observability-alert-details@link:x-pack/packages/observability/alert_details":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/observability-fixtures-plugin@link:x-pack/test/cases_api_integration/common/plugins/observability":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/observability-onboarding-plugin@link:x-pack/plugins/observability_onboarding":
   version "0.0.0"
-  uid ""
 
 "@kbn/observability-plugin@link:x-pack/plugins/observability":
   version "0.0.0"
-  uid ""
 
 "@kbn/observability-shared-plugin@link:x-pack/plugins/observability_shared":
   version "0.0.0"
-  uid ""
 
 "@kbn/oidc-provider-plugin@link:x-pack/test/security_api_integration/plugins/oidc_provider":
   version "0.0.0"
-  uid ""
 
 "@kbn/open-telemetry-instrumented-plugin@link:test/common/plugins/otel_metrics":
   version "0.0.0"
-  uid ""
 
 "@kbn/optimizer-webpack-helpers@link:packages/kbn-optimizer-webpack-helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/optimizer@link:packages/kbn-optimizer":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/osquery-io-ts-types@link:packages/kbn-osquery-io-ts-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/osquery-plugin@link:x-pack/plugins/osquery":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/paertial-results-example-plugin@link:examples/partial_results_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/painless-lab-plugin@link:x-pack/plugins/painless_lab":
   version "0.0.0"
-  uid ""
 
 "@kbn/peggy-loader@link:packages/kbn-peggy-loader":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/peggy@link:packages/kbn-peggy":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/performance-testing-dataset-extractor@link:packages/kbn-performance-testing-dataset-extractor":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/picomatcher@link:packages/kbn-picomatcher":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/plugin-generator@link:packages/kbn-plugin-generator":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/plugin-helpers@link:packages/kbn-plugin-helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/portable-dashboards-example@link:examples/portable_dashboards_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/preboot-example-plugin@link:examples/preboot_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/presentation-util-plugin@link:src/plugins/presentation_util":
   version "0.0.0"
-  uid ""
 
 "@kbn/profiling-plugin@link:x-pack/plugins/profiling":
   version "0.0.0"
-  uid ""
 
 "@kbn/random-sampling@link:x-pack/packages/kbn-random-sampling":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/react-field@link:packages/kbn-react-field":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/remote-clusters-plugin@link:x-pack/plugins/remote_clusters":
   version "0.0.0"
-  uid ""
 
 "@kbn/rendering-plugin@link:test/plugin_functional/plugins/rendering_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-file-maps@link:packages/kbn-repo-file-maps":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-info@link:packages/kbn-repo-info":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-linter@link:packages/kbn-repo-linter":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-packages@link:packages/kbn-repo-packages":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-path@link:packages/kbn-repo-path":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-source-classifier-cli@link:packages/kbn-repo-source-classifier-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/repo-source-classifier@link:packages/kbn-repo-source-classifier":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/reporting-common@link:packages/kbn-reporting/common":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/reporting-example-plugin@link:x-pack/examples/reporting_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/reporting-export-types-plugin@link:x-pack/plugins/reporting_export_types":
   version "0.0.0"
-  uid ""
 
 "@kbn/reporting-plugin@link:x-pack/plugins/reporting":
   version "0.0.0"
-  uid ""
 
 "@kbn/resolver-test-plugin@link:x-pack/test/plugin_functional/plugins/resolver_test":
   version "0.0.0"
-  uid ""
 
 "@kbn/response-stream-plugin@link:examples/response_stream":
   version "0.0.0"
-  uid ""
 
 "@kbn/rison@link:packages/kbn-rison":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/rollup-plugin@link:x-pack/plugins/rollup":
   version "0.0.0"
-  uid ""
 
 "@kbn/routing-example-plugin@link:examples/routing_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/rule-data-utils@link:packages/kbn-rule-data-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/rule-registry-plugin@link:x-pack/plugins/rule_registry":
   version "0.0.0"
-  uid ""
 
 "@kbn/runtime-fields-plugin@link:x-pack/plugins/runtime_fields":
   version "0.0.0"
-  uid ""
 
 "@kbn/safer-lodash-set@link:packages/kbn-safer-lodash-set":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saml-provider-plugin@link:x-pack/test/security_api_integration/plugins/saml_provider":
   version "0.0.0"
-  uid ""
 
 "@kbn/sample-task-plugin@link:x-pack/test/plugin_api_integration/plugins/sample_task_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-object-export-transforms-plugin@link:test/plugin_functional/plugins/saved_object_export_transforms":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-object-import-warnings-plugin@link:test/plugin_functional/plugins/saved_object_import_warnings":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-object-test-plugin@link:x-pack/test/saved_object_api_integration/common/plugins/saved_object_test_plugin":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-objects-finder-plugin@link:src/plugins/saved_objects_finder":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-objects-hidden-from-http-apis-type-plugin@link:test/plugin_functional/plugins/saved_objects_hidden_from_http_apis_type":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-objects-hidden-type-plugin@link:test/plugin_functional/plugins/saved_objects_hidden_type":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-objects-management-plugin@link:src/plugins/saved_objects_management":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-objects-plugin@link:src/plugins/saved_objects":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-objects-settings@link:packages/kbn-saved-objects-settings":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/saved-objects-tagging-oss-plugin@link:src/plugins/saved_objects_tagging_oss":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-objects-tagging-plugin@link:x-pack/plugins/saved_objects_tagging":
   version "0.0.0"
-  uid ""
 
 "@kbn/saved-search-plugin@link:src/plugins/saved_search":
   version "0.0.0"
-  uid ""
 
 "@kbn/screenshot-mode-example-plugin@link:examples/screenshot_mode_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/screenshot-mode-plugin@link:src/plugins/screenshot_mode":
   version "0.0.0"
-  uid ""
 
 "@kbn/screenshotting-example-plugin@link:x-pack/examples/screenshotting_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/screenshotting-plugin@link:x-pack/plugins/screenshotting":
   version "0.0.0"
-  uid ""
 
 "@kbn/search-examples-plugin@link:examples/search_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/searchprofiler-plugin@link:x-pack/plugins/searchprofiler":
   version "0.0.0"
-  uid ""
 
 "@kbn/security-api-integration-helpers@link:x-pack/test/security_api_integration/packages/helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/security-plugin@link:x-pack/plugins/security":
   version "0.0.0"
-  uid ""
 
 "@kbn/security-solution-fixtures-plugin@link:x-pack/test/cases_api_integration/common/plugins/security_solution":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/security-solution-plugin@link:x-pack/plugins/security_solution":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/security-solution-side-nav@link:x-pack/packages/security-solution/side_nav":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/security-solution-storybook-config@link:x-pack/packages/security-solution/storybook/config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/security-test-endpoints-plugin@link:x-pack/test/security_functional/plugins/test_endpoints":
   version "0.0.0"
-  uid ""
 
 "@kbn/securitysolution-autocomplete@link:packages/kbn-securitysolution-autocomplete":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-data-table@link:x-pack/packages/security-solution/data_table":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-ecs@link:packages/kbn-securitysolution-ecs":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-es-utils@link:packages/kbn-securitysolution-es-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-exception-list-components@link:packages/kbn-securitysolution-exception-list-components":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-grouping@link:packages/kbn-securitysolution-grouping":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-hook-utils@link:packages/kbn-securitysolution-hook-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-io-ts-alerting-types@link:packages/kbn-securitysolution-io-ts-alerting-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-io-ts-list-types@link:packages/kbn-securitysolution-io-ts-list-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-io-ts-types@link:packages/kbn-securitysolution-io-ts-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-io-ts-utils@link:packages/kbn-securitysolution-io-ts-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-list-api@link:packages/kbn-securitysolution-list-api":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-list-constants@link:packages/kbn-securitysolution-list-constants":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-list-hooks@link:packages/kbn-securitysolution-list-hooks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-list-utils@link:packages/kbn-securitysolution-list-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-rules@link:packages/kbn-securitysolution-rules":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-t-grid@link:packages/kbn-securitysolution-t-grid":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/securitysolution-utils@link:packages/kbn-securitysolution-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/server-http-tools@link:packages/kbn-server-http-tools":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/server-route-repository@link:packages/kbn-server-route-repository":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-observability@link:x-pack/plugins/serverless_observability":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-project-switcher@link:packages/serverless/project_switcher":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-search@link:x-pack/plugins/serverless_search":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-security@link:x-pack/plugins/serverless_security":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-storybook-config@link:packages/serverless/storybook/config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless-types@link:packages/serverless/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/serverless@link:x-pack/plugins/serverless":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/session-notifications-plugin@link:test/plugin_functional/plugins/session_notifications":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/session-view-plugin@link:x-pack/plugins/session_view":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/set-map@link:packages/kbn-set-map":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/share-examples-plugin@link:examples/share_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/share-plugin@link:src/plugins/share":
   version "0.0.0"
-  uid ""
 
 "@kbn/shared-svg@link:packages/kbn-shared-svg":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-avatar-solution@link:packages/shared-ux/avatar/solution":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-avatar-user-profile-components@link:packages/shared-ux/avatar/user_profile/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-button-exit-full-screen-mocks@link:packages/shared-ux/button/exit_full_screen/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-button-exit-full-screen-types@link:packages/shared-ux/button/exit_full_screen/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-button-exit-full-screen@link:packages/shared-ux/button/exit_full_screen/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-button-toolbar@link:packages/shared-ux/button_toolbar":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-card-no-data-mocks@link:packages/shared-ux/card/no_data/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-card-no-data-types@link:packages/shared-ux/card/no_data/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-card-no-data@link:packages/shared-ux/card/no_data/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-chrome-navigation@link:packages/shared-ux/chrome/navigation":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-context@link:packages/shared-ux/file/context":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-image-mocks@link:packages/shared-ux/file/image/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-image@link:packages/shared-ux/file/image/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-mocks@link:packages/shared-ux/file/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-picker@link:packages/shared-ux/file/file_picker/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-types@link:packages/shared-ux/file/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-upload@link:packages/shared-ux/file/file_upload/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-file-util@link:packages/shared-ux/file/util":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-link-redirect-app-mocks@link:packages/shared-ux/link/redirect_app/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-link-redirect-app-types@link:packages/shared-ux/link/redirect_app/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-link-redirect-app@link:packages/shared-ux/link/redirect_app/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-markdown-mocks@link:packages/shared-ux/markdown/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-markdown-types@link:packages/shared-ux/markdown/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-markdown@link:packages/shared-ux/markdown/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-analytics-no-data-mocks@link:packages/shared-ux/page/analytics_no_data/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-analytics-no-data-types@link:packages/shared-ux/page/analytics_no_data/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-analytics-no-data@link:packages/shared-ux/page/analytics_no_data/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-no-data-mocks@link:packages/shared-ux/page/kibana_no_data/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-no-data-types@link:packages/shared-ux/page/kibana_no_data/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-no-data@link:packages/shared-ux/page/kibana_no_data/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-template-mocks@link:packages/shared-ux/page/kibana_template/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-template-types@link:packages/shared-ux/page/kibana_template/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-kibana-template@link:packages/shared-ux/page/kibana_template/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data-config-mocks@link:packages/shared-ux/page/no_data_config/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data-config-types@link:packages/shared-ux/page/no_data_config/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data-config@link:packages/shared-ux/page/no_data_config/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data-mocks@link:packages/shared-ux/page/no_data/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data-types@link:packages/shared-ux/page/no_data/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-no-data@link:packages/shared-ux/page/no_data/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-page-solution-nav@link:packages/shared-ux/page/solution_nav":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-prompt-no-data-views-mocks@link:packages/shared-ux/prompt/no_data_views/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-prompt-no-data-views-types@link:packages/shared-ux/prompt/no_data_views/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-prompt-no-data-views@link:packages/shared-ux/prompt/no_data_views/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-prompt-not-found@link:packages/shared-ux/prompt/not_found":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-router-mocks@link:packages/shared-ux/router/mocks":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-router-types@link:packages/shared-ux/router/types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-router@link:packages/shared-ux/router/impl":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-storybook-config@link:packages/shared-ux/storybook/config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-storybook-mock@link:packages/shared-ux/storybook/mock":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/shared-ux-utility@link:packages/kbn-shared-ux-utility":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/slo-schema@link:packages/kbn-slo-schema":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/snapshot-restore-plugin@link:x-pack/plugins/snapshot_restore":
   version "0.0.0"
-  uid ""
 
 "@kbn/some-dev-log@link:packages/kbn-some-dev-log":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/sort-package-json@link:packages/kbn-sort-package-json":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/spaces-plugin@link:x-pack/plugins/spaces":
   version "0.0.0"
-  uid ""
 
 "@kbn/spaces-test-plugin@link:x-pack/test/spaces_api_integration/common/plugins/spaces_test_plugin":
   version "0.0.0"
-  uid ""
 
 "@kbn/spec-to-console@link:packages/kbn-spec-to-console":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/stack-alerts-plugin@link:x-pack/plugins/stack_alerts":
   version "0.0.0"
-  uid ""
 
 "@kbn/stack-connectors-plugin@link:x-pack/plugins/stack_connectors":
   version "0.0.0"
-  uid ""
 
 "@kbn/stack-management-usage-test-plugin@link:x-pack/test/usage_collection/plugins/stack_management_usage_test":
   version "0.0.0"
-  uid ""
 
 "@kbn/state-containers-examples-plugin@link:examples/state_containers_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/status-plugin-a-plugin@link:test/server_integration/plugins/status_plugin_a":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/status-plugin-b-plugin@link:test/server_integration/plugins/status_plugin_b":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/std@link:packages/kbn-std":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/stdio-dev-helpers@link:packages/kbn-stdio-dev-helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/storybook@link:packages/kbn-storybook":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/synthetics-plugin@link:x-pack/plugins/synthetics":
   version "0.0.0"
-  uid ""
 
 "@kbn/task-manager-fixture-plugin@link:x-pack/test/alerting_api_integration/common/plugins/task_manager_fixture":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/task-manager-performance-plugin@link:x-pack/test/plugin_api_perf/plugins/task_manager_performance":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/task-manager-plugin@link:x-pack/plugins/task_manager":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-collection-manager-plugin@link:src/plugins/telemetry_collection_manager":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-collection-xpack-plugin@link:x-pack/plugins/telemetry_collection_xpack":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-management-section-plugin@link:src/plugins/telemetry_management_section":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-plugin@link:src/plugins/telemetry":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-test-plugin@link:test/plugin_functional/plugins/telemetry":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/telemetry-tools@link:packages/kbn-telemetry-tools":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/test-feature-usage-plugin@link:x-pack/test/licensing_plugin/plugins/test_feature_usage":
   version "0.0.0"
-  uid ""
 
 "@kbn/test-jest-helpers@link:packages/kbn-test-jest-helpers":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/test-subj-selector@link:packages/kbn-test-subj-selector":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/test@link:packages/kbn-test":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/testing-embedded-lens-plugin@link:x-pack/examples/testing_embedded_lens":
   version "0.0.0"
-  uid ""
 
 "@kbn/text-based-editor@link:packages/kbn-text-based-editor":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/text-based-languages@link:src/plugins/text_based_languages":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/third-party-lens-navigation-prompt-plugin@link:x-pack/examples/third_party_lens_navigation_prompt":
   version "0.0.0"
-  uid ""
 
 "@kbn/third-party-vis-lens-example-plugin@link:x-pack/examples/third_party_vis_lens_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/threat-intelligence-plugin@link:x-pack/plugins/threat_intelligence":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/timelines-plugin@link:x-pack/plugins/timelines":
   version "0.0.0"
-  uid ""
 
 "@kbn/timelion-grammar@link:packages/kbn-timelion-grammar":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/tinymath@link:packages/kbn-tinymath":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/tooling-log@link:packages/kbn-tooling-log":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/transform-plugin@link:x-pack/plugins/transform":
   version "0.0.0"
-  uid ""
 
 "@kbn/translations-plugin@link:x-pack/plugins/translations":
   version "0.0.0"
-  uid ""
 
 "@kbn/triggers-actions-ui-example-plugin@link:x-pack/examples/triggers_actions_ui_example":
   version "0.0.0"
-  uid ""
 
 "@kbn/triggers-actions-ui-plugin@link:x-pack/plugins/triggers_actions_ui":
   version "0.0.0"
-  uid ""
 
 "@kbn/ts-projects@link:packages/kbn-ts-projects":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ts-type-check-cli@link:packages/kbn-ts-type-check-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/typed-react-router-config@link:packages/kbn-typed-react-router-config":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-actions-browser@link:packages/kbn-ui-actions-browser":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-actions-enhanced-examples-plugin@link:x-pack/examples/ui_actions_enhanced_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-actions-enhanced-plugin@link:src/plugins/ui_actions_enhanced":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-actions-examples-plugin@link:examples/ui_action_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-actions-explorer-plugin@link:examples/ui_actions_explorer":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-actions-plugin@link:src/plugins/ui_actions":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-framework@link:packages/kbn-ui-framework":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-settings-plugin@link:test/plugin_functional/plugins/ui_settings_plugin":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-shared-deps-npm@link:packages/kbn-ui-shared-deps-npm":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-shared-deps-src@link:packages/kbn-ui-shared-deps-src":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ui-theme@link:packages/kbn-ui-theme":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/unified-field-list-examples-plugin@link:examples/unified_field_list_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/unified-field-list-plugin@link:src/plugins/unified_field_list":
   version "0.0.0"
-  uid ""
 
 "@kbn/unified-histogram-plugin@link:src/plugins/unified_histogram":
   version "0.0.0"
-  uid ""
 
 "@kbn/unified-search-plugin@link:src/plugins/unified_search":
   version "0.0.0"
-  uid ""
 
 "@kbn/upgrade-assistant-plugin@link:x-pack/plugins/upgrade_assistant":
   version "0.0.0"
-  uid ""
 
 "@kbn/url-drilldown-plugin@link:x-pack/plugins/drilldowns/url_drilldown":
   version "0.0.0"
-  uid ""
 
 "@kbn/url-forwarding-plugin@link:src/plugins/url_forwarding":
   version "0.0.0"
-  uid ""
 
 "@kbn/url-state@link:packages/kbn-url-state":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/usage-collection-plugin@link:src/plugins/usage_collection":
   version "0.0.0"
-  uid ""
 
 "@kbn/usage-collection-test-plugin@link:test/plugin_functional/plugins/usage_collection":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/user-profile-components@link:packages/kbn-user-profile-components":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/user-profile-examples-plugin@link:examples/user_profile_examples":
   version "0.0.0"
-  uid ""
 
 "@kbn/user-profiles-consumer-plugin@link:x-pack/test/security_api_integration/plugins/user_profiles_consumer":
   version "0.0.0"
-  uid ""
 
 "@kbn/utility-types-jest@link:packages/kbn-utility-types-jest":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/utility-types@link:packages/kbn-utility-types":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/utils@link:packages/kbn-utils":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/ux-plugin@link:x-pack/plugins/ux":
   version "0.0.0"
-  uid ""
 
 "@kbn/validate-next-docs-cli@link:packages/kbn-validate-next-docs-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/vis-default-editor-plugin@link:src/plugins/vis_default_editor":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-gauge-plugin@link:src/plugins/vis_types/gauge":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-heatmap-plugin@link:src/plugins/vis_types/heatmap":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-markdown-plugin@link:src/plugins/vis_type_markdown":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-metric-plugin@link:src/plugins/vis_types/metric":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-pie-plugin@link:src/plugins/vis_types/pie":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-table-plugin@link:src/plugins/vis_types/table":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-tagcloud-plugin@link:src/plugins/vis_types/tagcloud":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-timelion-plugin@link:src/plugins/vis_types/timelion":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-timeseries-plugin@link:src/plugins/vis_types/timeseries":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-vega-plugin@link:src/plugins/vis_types/vega":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-vislib-plugin@link:src/plugins/vis_types/vislib":
   version "0.0.0"
-  uid ""
 
 "@kbn/vis-type-xy-plugin@link:src/plugins/vis_types/xy":
   version "0.0.0"
-  uid ""
 
 "@kbn/visualization-ui-components@link:src/plugins/visualization_ui_components":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/visualizations-plugin@link:src/plugins/visualizations":
   version "0.0.0"
-  uid ""
 
 "@kbn/watcher-plugin@link:x-pack/plugins/watcher":
   version "0.0.0"
-  uid ""
 
 "@kbn/web-worker-stub@link:packages/kbn-web-worker-stub":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/whereis-pkg-cli@link:packages/kbn-whereis-pkg-cli":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kbn/yarn-lock-validator@link:packages/kbn-yarn-lock-validator":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
 
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
@@ -11953,6 +11231,16 @@ camelcase-keys@^6.2.2:
     map-obj "^4.0.0"
     quick-lru "^4.0.1"
 
+camelcase-keys@^7.0.0:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-7.0.2.tgz#d048d8c69448745bb0de6fc4c1c52a30dfbe7252"
+  integrity sha512-Rjs1H+A9R+Ig+4E/9oyB66UC5Mj9Xq3N//vcLf2WzgdTi/3gUu3Z9KoqmlrEG4VuuLK8wJHofxzdQXz/knhiYg==
+  dependencies:
+    camelcase "^6.3.0"
+    map-obj "^4.1.0"
+    quick-lru "^5.1.1"
+    type-fest "^1.2.1"
+
 camelcase@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.0.0.tgz#03295527d58bd3cd4aa75363f35b2e8d97be2f42"
@@ -11972,6 +11260,11 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
+
+camelcase@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
+  integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 camelize@^1.0.0:
   version "1.0.0"
@@ -12408,13 +11701,6 @@ clone-deep@^4.0.1:
     kind-of "^6.0.2"
     shallow-clone "^3.0.0"
 
-clone-regexp@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/clone-regexp/-/clone-regexp-2.2.0.tgz#7d65e00885cd8796405c35a737e7a86b7429e36f"
-  integrity sha512-beMpP7BOtTipFuW8hrJvREQ2DrRu3BE7by0ZpibtfBA+qfHYvMGTc2Yb1JMYPKg/JUw0CHYvpg796aNTSW9z7Q==
-  dependencies:
-    is-regexp "^2.0.0"
-
 clone-response@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
@@ -12539,10 +11825,10 @@ color@^4.2.3:
     color-convert "^2.0.1"
     color-string "^1.9.0"
 
-colord@^2.9.1, colord@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/colord/-/colord-2.9.2.tgz#25e2bacbbaa65991422c07ea209e2089428effb1"
-  integrity sha512-Uqbg+J445nc1TKn4FoDPS6ZZqAvEDnwrH42yo8B40JSOgSLxMZ/gt3h4nmCtPLQeXhjJJkqBx7SCY35WnIixaQ==
+colord@^2.9.1, colord@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/colord/-/colord-2.9.3.tgz#4f8ce919de456f1d5c1c368c307fe20f3e59fb43"
+  integrity sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==
 
 colorette@^1.2.1, colorette@^1.2.2:
   version "1.2.2"
@@ -12919,7 +12205,7 @@ cosmiconfig@^6.0.0:
     path-type "^4.0.0"
     yaml "^1.7.2"
 
-cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
+cosmiconfig@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.0.1.tgz#714d756522cace867867ccb4474c5d01bbae5d6d"
   integrity sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==
@@ -12929,6 +12215,16 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+cosmiconfig@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.2.0.tgz#f7d17c56a590856cd1e7cee98734dca272b0d8fd"
+  integrity sha512-3rTMnFJA1tCOPwRxtgF4wd7Ab2qvDbL8jX+3smjIbS4HlZBagTlpERbdN7iAbWlrfxE3M8c27kTwTawQ7st+OQ==
+  dependencies:
+    import-fresh "^3.2.1"
+    js-yaml "^4.1.0"
+    parse-json "^5.0.0"
+    path-type "^4.0.0"
 
 cp-file@^7.0.0:
   version "7.0.0"
@@ -13169,6 +12465,14 @@ css-tree@^1.0.0-alpha.28, css-tree@^1.1.2, css-tree@^1.1.3:
   dependencies:
     mdn-data "2.0.14"
     source-map "^0.6.1"
+
+css-tree@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
+  integrity sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==
+  dependencies:
+    mdn-data "2.0.30"
+    source-map-js "^1.0.1"
 
 css-what@^6.0.1, css-what@^6.1.0:
   version "6.1.0"
@@ -13817,6 +13121,11 @@ decamelize@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-4.0.0.tgz#aa472d7bf660eb15f3494efd531cab7f2a709837"
   integrity sha512-9iE1PgSik9HeIIw2JO94IidnE3eBoQrFJ3w7sFuzSX4DpmZ3v5sZpUiV5Swcf6mQEF+Y0ru8Neo+p+nyh2J+hQ==
+
+decamelize@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-5.0.1.tgz#db11a92e58c741ef339fb0a2868d8a06a9a7b1e9"
+  integrity sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA==
 
 decamelize@^6.0.0:
   version "6.0.0"
@@ -15664,13 +14973,6 @@ execa@^5.0.0, execa@^5.1.1:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-execall@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/execall/-/execall-2.0.0.tgz#16a06b5fe5099df7d00be5d9c06eecded1663b45"
-  integrity sha512-0FU2hZ5Hh6iQnarpRtQurM/aAvp3RIbfvgLHrcqJYzhXyV2KFruhuChf9NC6waAhiUR7FFtlugkI4p7f2Fqlow==
-  dependencies:
-    clone-regexp "^2.1.0"
-
 executable@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/executable/-/executable-4.1.1.tgz#41532bff361d3e57af4d763b70582db18f5d133c"
@@ -15907,10 +15209,10 @@ fast-glob@^2.2.6:
     merge2 "^1.2.3"
     micromatch "^3.1.10"
 
-fast-glob@^3.0.3, fast-glob@^3.1.1, fast-glob@^3.2.11, fast-glob@^3.2.2, fast-glob@^3.2.7, fast-glob@^3.2.9:
-  version "3.2.12"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.12.tgz#7f39ec99c2e6ab030337142da9e0c18f37afae80"
-  integrity sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==
+fast-glob@^3.0.3, fast-glob@^3.1.1, fast-glob@^3.2.11, fast-glob@^3.2.2, fast-glob@^3.2.7, fast-glob@^3.2.9, fast-glob@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.0.tgz#7c40cb491e1e2ed5664749e87bfb516dbe8727c0"
+  integrity sha512-ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -15970,10 +15272,10 @@ fast-stream-to-buffer@^1.0.0:
   dependencies:
     end-of-stream "^1.4.1"
 
-fastest-levenshtein@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.12.tgz#9990f7d3a88cc5a9ffd1f1745745251700d497e2"
-  integrity sha512-On2N+BpYJ15xIC974QNVuYGMOlEVt4s0EOI3wwMqOmK1fdDY+FN/zltPV8vosq4ad4c/gJ1KHScUn/6AWIgiow==
+fastest-levenshtein@^1.0.12, fastest-levenshtein@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/fastest-levenshtein/-/fastest-levenshtein-1.0.16.tgz#210e61b6ff181de91ea9b3d1b84fdedd47e034e5"
+  integrity sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==
 
 fastest-stable-stringify@^1.0.1:
   version "1.0.1"
@@ -16725,11 +16027,6 @@ get-stdin@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-7.0.0.tgz#8d5de98f15171a125c5e516643c7a6d0ea8a96f6"
   integrity sha512-zRKcywvrXlXsA0v0i9Io4KDRaAw7+a1ZpjRwl9Wox8PFlVCCHra7E9c4kqXCoCM9nR5tBkaTTZRBoCm60bFqTQ==
-
-get-stdin@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-8.0.0.tgz#cbad6a73feb75f6eeb22ba9e01f89aa28aa97a53"
-  integrity sha512-sY22aA6xchAzprjyqmSEQv4UbAAzRN0L2dQB0NlN5acTTK9Don6nhoc3eAbUnpZiCANAMfd/+40kVdKfFygohg==
 
 get-stream@^4.0.0, get-stream@^4.1.0:
   version "4.1.0"
@@ -17516,6 +16813,13 @@ hosted-git-info@^3.0.6:
   dependencies:
     lru-cache "^6.0.0"
 
+hosted-git-info@^4.0.1:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.1.0.tgz#827b82867e9ff1c8d0c4d9d53880397d2c86d224"
+  integrity sha512-kyCuEOWjJqZuDbRHzL8V93NzQhwIB71oFWSyzVo+KPZI+pnQPPxucdkrOZvkLRnrf5URsQM+IJ09Dw29cRALIA==
+  dependencies:
+    lru-cache "^6.0.0"
+
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/hpack.js/-/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -17585,10 +16889,10 @@ html-minifier-terser@^5.0.1, html-minifier-terser@^5.1.1:
     relateurl "^0.2.7"
     terser "^4.6.3"
 
-html-tags@^3.1.0, html-tags@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.2.0.tgz#dbb3518d20b726524e4dd43de397eb0a95726961"
-  integrity sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==
+html-tags@^3.1.0, html-tags@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.3.1.tgz#a04026a18c882e4bba8a01a3d39cfe465d40b5ce"
+  integrity sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==
 
 html-tokenize@^2.0.0:
   version "2.0.1"
@@ -17870,10 +17174,10 @@ ignore@^4.0.3, ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-ignore@^5.0.5, ignore@^5.1.1, ignore@^5.1.4, ignore@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
-  integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
+ignore@^5.0.5, ignore@^5.1.1, ignore@^5.1.4, ignore@^5.2.0, ignore@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
+  integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -17932,6 +17236,11 @@ indent-string@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
   integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
+
+indent-string@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-5.0.0.tgz#4fd2980fccaf8622d14c64d694f4cf33c81951a5"
+  integrity sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==
 
 infer-owner@^1.0.3, infer-owner@^1.0.4:
   version "1.0.4"
@@ -18236,6 +17545,13 @@ is-ci@^3.0.0:
   integrity sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==
   dependencies:
     ci-info "^3.2.0"
+
+is-core-module@^2.5.0:
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.12.1.tgz#0c0b6885b6f80011c71541ce15c8d66cf5a4f9fd"
+  integrity sha512-Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==
+  dependencies:
+    has "^1.0.3"
 
 is-core-module@^2.6.0, is-core-module@^2.9.0:
   version "2.10.0"
@@ -18553,11 +17869,6 @@ is-regex@^1.0.4, is-regex@^1.0.5, is-regex@^1.1.2, is-regex@^1.1.4:
   dependencies:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
-
-is-regexp@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/is-regexp/-/is-regexp-2.1.0.tgz#cd734a56864e23b956bf4e7c66c396a4c0b22c2d"
-  integrity sha512-OZ4IlER3zmRIoB9AqNhEggVxqIH4ofDns5nRrPS6yQxXE1TPCUpFznBfRQmQa8uC+pXqjMnukiJBxCisIxiLGA==
 
 is-relative@^1.0.0:
   version "1.0.0"
@@ -20059,10 +19370,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
-known-css-properties@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.25.0.tgz#6ebc4d4b412f602e5cfbeb4086bd544e34c0a776"
-  integrity sha512-b0/9J1O9Jcyik1GC6KC42hJ41jKwdO/Mq8Mdo5sYN+IuRTXs2YFHZC3kZSx6ueusqa95x3wLYe/ytKjbAfGixA==
+known-css-properties@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.27.0.tgz#82a9358dda5fe7f7bd12b5e7142c0a205393c0c5"
+  integrity sha512-uMCj6+hZYDoffuvAJjFAPz56E9uoowFHmTkqRtRq5WyC5Q6Cu/fTZKNQpX/RbzChBYLLl3lo8CjFZBAZXq9qFg==
 
 kuler@^2.0.0:
   version "2.0.0"
@@ -21061,6 +20372,11 @@ mdn-data@2.0.14:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
   integrity sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==
 
+mdn-data@2.0.30:
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
+  integrity sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==
+
 mdurl@^1.0.0, mdurl@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
@@ -21142,6 +20458,24 @@ memory-fs@^0.5.0:
   dependencies:
     errno "^0.1.3"
     readable-stream "^2.0.1"
+
+meow@^10.1.5:
+  version "10.1.5"
+  resolved "https://registry.yarnpkg.com/meow/-/meow-10.1.5.tgz#be52a1d87b5f5698602b0f32875ee5940904aa7f"
+  integrity sha512-/d+PQ4GKmGvM9Bee/DPa8z3mXs/pkvJE2KEThngVNOqtmljC6K7NMPxtc2JeZYTmpWb9k/TmxjeL18ez3h7vCw==
+  dependencies:
+    "@types/minimist" "^1.2.2"
+    camelcase-keys "^7.0.0"
+    decamelize "^5.0.0"
+    decamelize-keys "^1.1.0"
+    hard-rejection "^2.1.0"
+    minimist-options "4.1.0"
+    normalize-package-data "^3.0.2"
+    read-pkg-up "^8.0.0"
+    redent "^4.0.0"
+    trim-newlines "^4.0.2"
+    type-fest "^1.2.2"
+    yargs-parser "^20.2.9"
 
 meow@^3.1.0:
   version "3.7.0"
@@ -21355,6 +20689,11 @@ min-indent@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.0.tgz#cfc45c37e9ec0d8f0a0ec3dd4ef7f7c3abe39256"
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
+
+min-indent@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/min-indent/-/min-indent-1.0.1.tgz#a63f681673b30571fbe8bc25686ae746eefa9869"
+  integrity sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==
 
 mini-create-react-context@^0.4.0:
   version "0.4.1"
@@ -21832,10 +21171,15 @@ nanoid@3.3.3:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.3.tgz#fd8e8b7aa761fe807dba2d1b98fb7241bb724a25"
   integrity sha512-p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==
 
-nanoid@^3.3.1, nanoid@^3.3.4:
+nanoid@^3.3.1:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
+
+nanoid@^3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
+  integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
 nanomatch@^1.2.9:
   version "1.2.9"
@@ -22177,6 +21521,16 @@ normalize-package-data@^3.0.0:
     hosted-git-info "^3.0.6"
     resolve "^1.17.0"
     semver "^7.3.2"
+    validate-npm-package-license "^3.0.1"
+
+normalize-package-data@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-3.0.3.tgz#dbcc3e2da59509a0983422884cd172eefdfa525e"
+  integrity sha512-p2W1sgqij3zMMyRC067Dg16bfzVH+w7hyegmpIvZ4JNjqtGOVAIvLmjBx3yP7YTe9vKJgkoNOPjwQGogDoMXFA==
+  dependencies:
+    hosted-git-info "^4.0.1"
+    is-core-module "^2.5.0"
+    semver "^7.3.4"
     validate-npm-package-license "^3.0.1"
 
 normalize-path@^2.0.1, normalize-path@^2.1.1:
@@ -23627,10 +22981,10 @@ postcss-scss@^4.0.4:
   resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.4.tgz#aa8f60e19ee18259bc193db9e4b96edfce3f3b1f"
   integrity sha512-aBBbVyzA8b3hUL0MGrpydxxXKXFZc5Eqva0Q3V9qsBOLEMsjb6w49WfpsoWzpEgcqJGW4t7Rio8WXVU9Gd8vWg==
 
-postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.6, postcss-selector-parser@^6.0.9:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.10.tgz#79b61e2c0d1bfc2602d549e11d0876256f8df88d"
-  integrity sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==
+postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.13, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.6, postcss-selector-parser@^6.0.9:
+  version "6.0.13"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz#d05d8d76b1e8e173257ef9d60b706a8e5e99bf1b"
+  integrity sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==
   dependencies:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
@@ -23663,12 +23017,12 @@ postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.4.14:
-  version "8.4.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
-  integrity sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==
+postcss@^8.4.14, postcss@^8.4.24:
+  version "8.4.25"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.25.tgz#4a133f5e379eda7f61e906c3b1aaa9b81292726f"
+  integrity sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==
   dependencies:
-    nanoid "^3.3.4"
+    nanoid "^3.3.6"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
@@ -24911,6 +24265,15 @@ read-pkg-up@^7.0.0, read-pkg-up@^7.0.1:
     read-pkg "^5.2.0"
     type-fest "^0.8.1"
 
+read-pkg-up@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-8.0.0.tgz#72f595b65e66110f43b052dd9af4de6b10534670"
+  integrity sha512-snVCqPczksT0HS2EC+SxUndvSzn6LRCwpfSvLrIfR5BKDQQZMaI6jPRC9dYvYFDRAuFEAnkwww8kBBNE/3VvzQ==
+  dependencies:
+    find-up "^5.0.0"
+    read-pkg "^6.0.0"
+    type-fest "^1.0.1"
+
 read-pkg@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
@@ -24938,6 +24301,16 @@ read-pkg@^5.2.0:
     normalize-package-data "^2.5.0"
     parse-json "^5.0.0"
     type-fest "^0.6.0"
+
+read-pkg@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-6.0.0.tgz#a67a7d6a1c2b0c3cd6aa2ea521f40c458a4a504c"
+  integrity sha512-X1Fu3dPuk/8ZLsMhEj5f4wFAF0DWoK7qhGJvgaijocXxBmSToKfbFtqbxMO7bVjNA1dmE5huAzjXj/ey86iw9Q==
+  dependencies:
+    "@types/normalize-package-data" "^2.4.0"
+    normalize-package-data "^3.0.2"
+    parse-json "^5.2.0"
+    type-fest "^1.0.1"
 
 "readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.4, readable-stream@^2.0.5, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.5, readable-stream@~2.3.3, readable-stream@~2.3.6:
   version "2.3.7"
@@ -25029,6 +24402,14 @@ redent@^3.0.0:
   dependencies:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
+
+redent@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/redent/-/redent-4.0.0.tgz#0c0ba7caabb24257ab3bb7a4fd95dd1d5c5681f9"
+  integrity sha512-tYkDkVVtYkSVhuQ4zBgfvciymHaeuel+zFKXShfDnFP5SyVEP7qo70Rf1jTOTCx3vGNAbnEi/xFkcfQVMIBWag==
+  dependencies:
+    indent-string "^5.0.0"
+    strip-indent "^4.0.0"
 
 reduce-reducers@^0.4.3:
   version "0.4.3"
@@ -26254,6 +25635,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
+signal-exit@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
+  integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
+
 simple-bin-help@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/simple-bin-help/-/simple-bin-help-1.8.0.tgz#21bb82c6bccd9fa8678f9c0fadf2956b54e2160a"
@@ -26501,7 +25887,7 @@ source-list-map@^2.0.0:
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
 
-source-map-js@^1.0.2:
+source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
@@ -27135,6 +26521,13 @@ strip-indent@^3.0.0:
   dependencies:
     min-indent "^1.0.0"
 
+strip-indent@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-4.0.0.tgz#b41379433dd06f5eae805e21d631e07ee670d853"
+  integrity sha512-mnVSV2l+Zv6BLpSD/8V87CW/y9EmmbYzGCIavsnsI6/nwn26DwffM/yztm30Z/I2DY9wdS3vXVCMnHDgZaVNoA==
+  dependencies:
+    min-indent "^1.0.1"
+
 strip-json-comments@3.1.1, strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
@@ -27200,51 +26593,51 @@ stylelint-scss@^4.3.0:
     postcss-selector-parser "^6.0.6"
     postcss-value-parser "^4.1.0"
 
-stylelint@^14.9.1:
-  version "14.9.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.9.1.tgz#6494ed38f148b1e75b402d678a3b6a8aae86dfda"
-  integrity sha512-RdAkJdPiLqHawCSnu21nE27MjNXaVd4WcOHA4vK5GtIGjScfhNnaOuWR2wWdfKFAvcWQPOYe311iveiVKSmwsA==
+stylelint@^15.10.1:
+  version "15.10.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-15.10.1.tgz#93f189958687e330c106b010cbec0c41dcae506d"
+  integrity sha512-CYkzYrCFfA/gnOR+u9kJ1PpzwG10WLVnoxHDuBA/JiwGqdM9+yx9+ou6SE/y9YHtfv1mcLo06fdadHTOx4gBZQ==
   dependencies:
-    "@csstools/selector-specificity" "^2.0.1"
+    "@csstools/css-parser-algorithms" "^2.3.0"
+    "@csstools/css-tokenizer" "^2.1.1"
+    "@csstools/media-query-list-parser" "^2.1.2"
+    "@csstools/selector-specificity" "^3.0.0"
     balanced-match "^2.0.0"
-    colord "^2.9.2"
-    cosmiconfig "^7.0.1"
+    colord "^2.9.3"
+    cosmiconfig "^8.2.0"
     css-functions-list "^3.1.0"
+    css-tree "^2.3.1"
     debug "^4.3.4"
-    execall "^2.0.0"
-    fast-glob "^3.2.11"
-    fastest-levenshtein "^1.0.12"
+    fast-glob "^3.3.0"
+    fastest-levenshtein "^1.0.16"
     file-entry-cache "^6.0.1"
-    get-stdin "^8.0.0"
     global-modules "^2.0.0"
     globby "^11.1.0"
     globjoin "^0.1.4"
-    html-tags "^3.2.0"
-    ignore "^5.2.0"
+    html-tags "^3.3.1"
+    ignore "^5.2.4"
     import-lazy "^4.0.0"
     imurmurhash "^0.1.4"
     is-plain-object "^5.0.0"
-    known-css-properties "^0.25.0"
+    known-css-properties "^0.27.0"
     mathml-tag-names "^2.1.3"
-    meow "^9.0.0"
+    meow "^10.1.5"
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
     picocolors "^1.0.0"
-    postcss "^8.4.14"
-    postcss-media-query-parser "^0.2.3"
+    postcss "^8.4.24"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
-    postcss-selector-parser "^6.0.10"
+    postcss-selector-parser "^6.0.13"
     postcss-value-parser "^4.2.0"
     resolve-from "^5.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
     style-search "^0.1.0"
-    supports-hyperlinks "^2.2.0"
+    supports-hyperlinks "^3.0.0"
     svg-tags "^1.0.0"
-    table "^6.8.0"
-    v8-compile-cache "^2.3.0"
-    write-file-atomic "^4.0.1"
+    table "^6.8.1"
+    write-file-atomic "^5.0.1"
 
 stylis@3.5.0:
   version "3.5.0"
@@ -27335,10 +26728,18 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-supports-hyperlinks@^2.0.0, supports-hyperlinks@^2.2.0:
+supports-hyperlinks@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-2.2.0.tgz#4f77b42488765891774b70c79babd87f9bd594bb"
   integrity sha512-6sXEzV5+I5j8Bmq9/vUphGRM/RJNT9SCURJLjwfOg51heRtguGWDzcaBlgAzKhQa0EVNpPEKzQuBwZ8S8WaCeQ==
+  dependencies:
+    has-flag "^4.0.0"
+    supports-color "^7.0.0"
+
+supports-hyperlinks@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-3.0.0.tgz#c711352a5c89070779b4dad54c05a2f14b15c94b"
+  integrity sha512-QBDPHyPQDRTy9ku4URNGY5Lah8PAaXs6tAAwp55sL5WCsSW7GIfdf6W5ixfziW+t7wh3GVvHyHHyQ1ESsoRvaA==
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
@@ -27405,10 +26806,10 @@ tabbable@^5.2.1:
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.2.1.tgz#e3fda7367ddbb172dcda9f871c0fdb36d1c4cd9c"
   integrity sha512-40pEZ2mhjaZzK0BnI+QGNjJO8UYx9pP5v7BGe17SORTO0OEuuaAwQTkAp8whcZvqon44wKFOikD+Al11K3JICQ==
 
-table@^6.0.9, table@^6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.8.0.tgz#87e28f14fa4321c3377ba286f07b79b281a3b3ca"
-  integrity sha512-s/fitrbVeEyHKFa7mFdkuQMWlH1Wgw/yEXMt5xACT4ZpzWFluehAxRtUUQKPuWhaLAWhFcVx6w3oC8VKaUfPGA==
+table@^6.0.9, table@^6.8.1:
+  version "6.8.1"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.8.1.tgz#ea2b71359fe03b017a5fbc296204471158080bdf"
+  integrity sha512-Y4X9zqrCftUhMeH2EptSSERdVKt/nEdijTOacGD/97EKjhQ/Qs8RTlEGABSJNNN8lac9kheH+af7yAkEWlgneA==
   dependencies:
     ajv "^8.0.1"
     lodash.truncate "^4.4.2"
@@ -27949,6 +27350,11 @@ trim-newlines@^3.0.0:
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
+trim-newlines@^4.0.2:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-4.1.1.tgz#28c88deb50ed10c7ba6dc2474421904a00139125"
+  integrity sha512-jRKj0n0jXWo6kh62nA5TEh3+4igKDXLvzBJcPpiizP7oOolUrYIxmVBG9TOtHYFHoddUk6YvAkGeGoSVTXfQXQ==
+
 trim-trailing-lines@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/trim-trailing-lines/-/trim-trailing-lines-1.1.0.tgz#7aefbb7808df9d669f6da2e438cac8c46ada7684"
@@ -28135,6 +27541,11 @@ type-fest@^0.8.0, type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
+
+type-fest@^1.0.1, type-fest@^1.2.1, type-fest@^1.2.2:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
+  integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
 
 type-is@~1.6.18:
   version "1.6.18"
@@ -28745,7 +28156,7 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-v8-compile-cache@^2.0.3, v8-compile-cache@^2.3.0:
+v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
@@ -29895,6 +29306,14 @@ write-file-atomic@^4.0.1:
     imurmurhash "^0.1.4"
     signal-exit "^3.0.7"
 
+write-file-atomic@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-5.0.1.tgz#68df4717c55c6fa4281a7860b4c2ba0a6d2b11e7"
+  integrity sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw==
+  dependencies:
+    imurmurhash "^0.1.4"
+    signal-exit "^4.0.1"
+
 ws@8.13.0, ws@>=8.13.0:
   version "8.13.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
@@ -30064,6 +29483,11 @@ yargs-parser@^18.1.2:
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
+
+yargs-parser@^20.2.9:
+  version "20.2.9"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.9.tgz#2eb7dc3b0289718fc295f362753845c41a0c94ee"
+  integrity sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==
 
 yargs-parser@^21.0.0, yargs-parser@^21.1.1:
   version "21.1.1"
